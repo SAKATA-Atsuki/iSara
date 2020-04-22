@@ -1,0 +1,44 @@
+header {
+    background-color: pink;
+    .header {
+        display: flex;
+        align-items: center;
+        width: 1180px;
+        margin: 0 auto;
+        padding: 0 10px;
+        @media (max-width:1190px) {
+            width: auto;
+        }
+        img {
+            height: 45px;
+            margin-right: 5px;
+        }
+        p {
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-top: 33px;
+            @media (max-width:1190px) {
+                font-size: 12px;
+                letter-spacing: 0;
+            }
+        }
+        span {
+            font-size: 14px;
+            font-weight: lighter;
+            letter-spacing: 2px;
+            margin-left: auto;
+            padding: 12px 42px;
+            border-radius: 100px;
+            background-color: rgb(205, 113, 104);
+            color: white;
+            &:hover {
+                background-color: rgb(201, 83, 70);
+            }
+            @media (max-width:1190px) {
+                font-size: 12px;
+                letter-spacing: 0;
+            }
+        }    
+    }
+}
