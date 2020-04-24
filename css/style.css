@@ -1,5 +1,13 @@
+@media (min-width: 768px) {
+  .br-767 {
+    display: none;
+  }
+}
+
 header {
   background-color: white;
+  position: fixed;
+  width: 100%;
 }
 
 header .header {
@@ -92,12 +100,12 @@ header .header .header-right span {
   letter-spacing: 2px;
   padding: 12px 42px;
   border-radius: 100px;
-  background-color: #cd7168;
+  background-color: #db6b64;
   color: white;
 }
 
 header .header .header-right span:hover {
-  background-color: #c95346;
+  background-color: #d94940;
 }
 
 @media (max-width: 1190px) {
@@ -116,11 +124,11 @@ header .header .header-right span:hover {
 header .header .header-right .header-form {
   display: none;
   height: 65px;
-  background-color: #cd7168;
+  background-color: #db6b64;
 }
 
 header .header .header-right .header-form:hover {
-  background-color: #c95346;
+  background-color: #d94940;
 }
 
 @media (max-width: 767px) {
@@ -157,8 +165,9 @@ header .header .header-right .header-form p {
 
 @media (max-width: 767px) {
   .title {
-    height: 310px;
+    height: 375px;
     background-image: url(../img/mainsp.jpg);
+    padding-top: 65px;
   }
 }
 
@@ -211,5 +220,179 @@ header .header .header-right .header-form p {
     font-size: 15px;
     line-height: 16px;
   }
+}
+
+.recruit {
+  height: 610px;
+  background-color: #ebba4d;
+  text-align: center;
+}
+
+@media (max-width: 1190px) {
+  .recruit {
+    height: 470px;
+  }
+}
+
+@media (max-width: 767px) {
+  .recruit {
+    height: 525px;
+  }
+}
+
+.recruit h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  line-height: 33px;
+  padding: 30px 0 6px 0;
+}
+
+@media (max-width: 1190px) {
+  .recruit h1 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .recruit h1 {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 15px 0 3px 0;
+  }
+}
+
+.recruit .recruit-fee {
+  color: #c8254e;
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1190px) {
+  .recruit .recruit-fee {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .recruit .recruit-fee {
+    font-size: 14px;
+  }
+}
+
+.recruit .recruit-form {
+  color: white;
+  font-size: 27px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  background-color: #db6b64;
+  border-radius: 100px;
+  padding: 30px 0;
+  width: 1025px;
+  margin: 50px auto 0 auto;
+}
+
+.recruit .recruit-form:hover {
+  background-color: #d94940;
+}
+
+@media (max-width: 1190px) {
+  .recruit .recruit-form {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 25px 0;
+    width: auto;
+    margin: 12px 85px 0 85px;
+  }
+}
+
+@media (max-width: 767px) {
+  .recruit .recruit-form {
+    font-size: 19px;
+    padding: 20px 0;
+    margin: 30px 20px 0 20px;
+  }
+}
+
+.recruit div {
+  line-height: 50px;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1190px) {
+  .recruit div {
+    line-height: 40px;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .recruit div {
+    margin-bottom: 25px;
+  }
+}
+
+.recruit div .recruit-deadline {
+  color: white;
+  font-size: 21px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1190px) {
+  .recruit div .recruit-deadline {
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .recruit div .recruit-deadline {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.recruit .recruit-twitter {
+  color: white;
+  font-size: 12px;
+  padding: 3px 3px 3px 7px;
+  border-radius: 3px;
+  margin: 0 3px;
+  text-decoration: none;
+  background-color: #1b95e0;
+}
+
+.recruit .recruit-twitter:hover {
+  background-color: #0d7abf;
+}
+
+.recruit .recruit-good {
+  color: white;
+  font-size: 12px;
+  padding: 3px 3px 3px 7px;
+  border-radius: 3px;
+  margin: 0 3px;
+  text-decoration: none;
+  background-color: #1877f2;
+}
+
+.recruit .recruit-share {
+  color: white;
+  font-size: 12px;
+  padding: 3px 3px 3px 7px;
+  border-radius: 3px;
+  margin: 0 3px;
+  text-decoration: none;
+  background-color: #1877f2;
+  padding: 3px 7px;
 }
 /*# sourceMappingURL=style.css.map */
