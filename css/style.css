@@ -155,6 +155,16 @@ header .header .header-right .header-form p {
   margin: 0 10px;
 }
 
+.blank {
+  height: 70px;
+}
+
+@media (max-width: 767px) {
+  .blank {
+    height: 65px;
+  }
+}
+
 .title {
   height: 500px;
   background-image: url(../img/main.jpg);
@@ -165,9 +175,8 @@ header .header .header-right .header-form p {
 
 @media (max-width: 767px) {
   .title {
-    height: 375px;
+    height: 310px;
     background-image: url(../img/mainsp.jpg);
-    padding-top: 65px;
   }
 }
 
@@ -183,6 +192,7 @@ header .header .header-right .header-form p {
   .title h1 {
     font-size: 23px;
     line-height: 47px;
+    padding-top: 100px;
   }
 }
 

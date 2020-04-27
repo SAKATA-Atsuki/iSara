@@ -97,6 +97,12 @@ header {
         }
     }
 }
+.blank {
+    height: 70px;
+    @media (max-width:767px) {
+        height: 65px;
+    }    
+}
 .title {
     height: 500px;
     background-image: url(../img/main.jpg);
@@ -104,9 +110,8 @@ header {
     background-position: center;
     text-align: center;
     @media (max-width:767px) {
-        height: 375px;
+        height: 310px;
         background-image: url(../img/mainsp.jpg);
-        padding-top: 65px;
     }
     h1 {
         font-size: 28px;
@@ -117,6 +122,7 @@ header {
         @media (max-width:1190px) {
             font-size: 23px;
             line-height: 47px;
+            padding-top: 100px;
         }
         @media (max-width:767px) {
             font-size: 18px;
