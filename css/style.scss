@@ -364,4 +364,34 @@ header {
             background: linear-gradient(transparent 70%, rgb(235, 185, 77) 0%);
         }
     }
+    .true-freedom-about {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(231, 183, 76);
+        border-radius: 100px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 27px;
+        margin-top: 120px;
+        color: white;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2;
+        @media (max-width:1190px) {
+            margin-top: 150px;
+        }
+        @media (max-width:767px) {
+            width: 65px;
+            height: 65px;    
+            font-size: 14px;
+            padding-top: 22px;
+            margin-top: 50px;
+        }
+    }
+}
+.whats-isara {
+    height: 100px;
+    background-color: rgb(254, 245, 224);
+    position: relative;
+    z-index: 1;
 }

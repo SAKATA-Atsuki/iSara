@@ -548,4 +548,42 @@ header .header .header-right .header-form p {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0%, #ebb94d));
   background: linear-gradient(transparent 70%, #ebb94d 0%);
 }
+
+.true-freedom .true-freedom-about {
+  width: 80px;
+  height: 80px;
+  background-color: #e7b74c;
+  border-radius: 100px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 27px;
+  margin-top: 120px;
+  color: white;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 1190px) {
+  .true-freedom .true-freedom-about {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .true-freedom .true-freedom-about {
+    width: 65px;
+    height: 65px;
+    font-size: 14px;
+    padding-top: 22px;
+    margin-top: 50px;
+  }
+}
+
+.whats-isara {
+  height: 100px;
+  background-color: #fef5e0;
+  position: relative;
+  z-index: 1;
+}
 /*# sourceMappingURL=style.css.map */
