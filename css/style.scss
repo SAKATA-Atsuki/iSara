@@ -6,6 +6,7 @@
 header {
     background-color: white;
     position: fixed;
+    z-index: 3;
     width: 100%;
     .header {
         display: flex;
@@ -292,7 +293,7 @@ header {
         width: 890px;
         margin: 0 auto;
         padding: 40px 20px 0 20px;
-        @media (max-width:888px) {
+        @media (max-width:890px) {
             width: auto;
         }
         @media (max-width:767px) {
@@ -390,8 +391,147 @@ header {
     }
 }
 .whats-isara {
-    height: 100px;
     background-color: rgb(254, 245, 224);
     position: relative;
     z-index: 1;
+    text-align: center;
+    padding-bottom: 70px;
+    .whats-isara-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 20px 0 20px;
+        width: 850px;
+        margin: 0 auto;
+        @media (max-width:1190px) {
+            padding-top: 55px;
+        }
+        @media (max-width:851px) {
+            width: auto;
+        }
+        @media (max-width:767px) {
+            padding-top: 80px;
+        }
+        .brackets-1 {
+            border-top: solid 4px rgb(235, 186, 77);
+            border-left: solid 4px rgb(235, 186, 77);
+            width: 50px;
+            height: 50px;
+            @media (max-width:767px) {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            padding-top: 60px;
+            line-height: 40px;
+            @media (max-width:1190px) {
+                font-size: 24px;
+            }
+            @media (max-width:767px) {
+                font-size: 17px;
+                padding-top: 20px;
+            }
+        }
+        .brackets-2 {
+            border-bottom: solid 4px rgb(235, 186, 77);
+            border-right: solid 4px rgb(235, 186, 77);
+            width: 50px;
+            height: 50px;
+            margin-top: 115px;
+            @media (max-width:767px) {
+                width: 30px;
+                height: 30px;
+                margin-top: 90px;
+            }
+        }
+    }
+    p {
+        font-size: 21px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        @media (max-width:1190px) {
+            font-size: 16px;
+        }
+        @media (max-width:767px) {
+            font-size: 15px;
+            margin-top: -14px;
+            margin-bottom: 33px;
+        }
+    }
+    .whats-isara-main {
+        background-color: white;
+        width: 1170px;
+        margin: 0 auto;
+        border: solid rgb(235, 186, 77) 2px;
+        border-radius: 5px;
+        @media (max-width:1190px) {
+            width: auto;
+            margin: 0 20px;
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            margin-top: 35px;
+            @media (max-width:1190px) {
+                font-size: 16px;
+            }
+            @media (max-width:767px) {
+                font-size: 15px;
+                margin-top: 10px;
+                line-height: 24px;
+            }
+        }
+        .whats-isara-slills {
+            margin-top: 35px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            @media (max-width:767px) {
+                margin-top: 17px;
+                margin-bottom: -10px;
+            }
+            @mixin whats-isara-slills($margin-top, $width) {
+                margin: 0 15px;
+                margin-top: $margin-top;
+                @media (max-width:767px) {
+                    margin: 0 10px;
+                }
+                img {
+                    @media (max-width:767px) {
+                        width: $width;
+                    }
+                }
+                p {
+                    font-size: 12px;
+                    font-weight: lighter;
+                    margin-top: 12px;
+                    @media (max-width:767px) {
+                        font-size: 10px;
+                    }
+                }    
+            }
+            .whats-isara-skills-1 {
+                @include whats-isara-slills(2px, 32px);
+            }
+            .whats-isara-skills-2 {
+                @include whats-isara-slills(-11px, 32px);
+            }
+            .whats-isara-skills-3 {
+                @include whats-isara-slills(0, 25px);
+            }
+            .whats-isara-skills-4 {
+                @include whats-isara-slills(6px, 32px);
+            }
+            .whats-isara-skills-5 {
+                @include whats-isara-slills(9px, 80px);
+            }
+        }
+    }
 }

@@ -7,6 +7,7 @@
 header {
   background-color: white;
   position: fixed;
+  z-index: 3;
   width: 100%;
 }
 
@@ -441,7 +442,7 @@ header .header .header-right .header-form p {
   padding: 40px 20px 0 20px;
 }
 
-@media (max-width: 888px) {
+@media (max-width: 890px) {
   .true-freedom .true-freedom-top {
     width: auto;
   }
@@ -581,9 +582,314 @@ header .header .header-right .header-form p {
 }
 
 .whats-isara {
-  height: 100px;
   background-color: #fef5e0;
   position: relative;
   z-index: 1;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.whats-isara .whats-isara-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 20px 0 20px;
+  width: 850px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1190px) {
+  .whats-isara .whats-isara-top {
+    padding-top: 55px;
+  }
+}
+
+@media (max-width: 851px) {
+  .whats-isara .whats-isara-top {
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-top {
+    padding-top: 80px;
+  }
+}
+
+.whats-isara .whats-isara-top .brackets-1 {
+  border-top: solid 4px #ebba4d;
+  border-left: solid 4px #ebba4d;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-top .brackets-1 {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.whats-isara .whats-isara-top h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding-top: 60px;
+  line-height: 40px;
+}
+
+@media (max-width: 1190px) {
+  .whats-isara .whats-isara-top h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-top h1 {
+    font-size: 17px;
+    padding-top: 20px;
+  }
+}
+
+.whats-isara .whats-isara-top .brackets-2 {
+  border-bottom: solid 4px #ebba4d;
+  border-right: solid 4px #ebba4d;
+  width: 50px;
+  height: 50px;
+  margin-top: 115px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-top .brackets-2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 90px;
+  }
+}
+
+.whats-isara p {
+  font-size: 21px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1190px) {
+  .whats-isara p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-isara p {
+    font-size: 15px;
+    margin-top: -14px;
+    margin-bottom: 33px;
+  }
+}
+
+.whats-isara .whats-isara-main {
+  background-color: white;
+  width: 1170px;
+  margin: 0 auto;
+  border: solid #ebba4d 2px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1190px) {
+  .whats-isara .whats-isara-main {
+    width: auto;
+    margin: 0 20px;
+  }
+}
+
+.whats-isara .whats-isara-main h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 35px;
+}
+
+@media (max-width: 1190px) {
+  .whats-isara .whats-isara-main h1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main h1 {
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 24px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills {
+    margin-top: 17px;
+    margin-bottom: -10px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-1 {
+  margin: 0 15px;
+  margin-top: 2px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-1 {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-1 img {
+    width: 32px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-1 p {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-1 p {
+    font-size: 10px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-2 {
+  margin: 0 15px;
+  margin-top: -11px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-2 {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-2 img {
+    width: 32px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-2 p {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-2 p {
+    font-size: 10px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-3 {
+  margin: 0 15px;
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-3 {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-3 img {
+    width: 25px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-3 p {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-3 p {
+    font-size: 10px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-4 {
+  margin: 0 15px;
+  margin-top: 6px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-4 {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-4 img {
+    width: 32px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-4 p {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-4 p {
+    font-size: 10px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-5 {
+  margin: 0 15px;
+  margin-top: 9px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-5 {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-5 img {
+    width: 80px;
+  }
+}
+
+.whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-5 p {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+  .whats-isara .whats-isara-main .whats-isara-slills .whats-isara-skills-5 p {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
