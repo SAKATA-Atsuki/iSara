@@ -320,7 +320,7 @@ header {
             }
             @media (max-width:767px) {
                 text-align: center;
-                font-size: 18px;
+                font-size: 17px;
                 line-height: 40px;
                 margin-top: 25px;
             }
@@ -531,6 +531,130 @@ header {
             }
             .whats-isara-skills-5 {
                 @include whats-isara-slills(9px, 80px);
+            }
+        }
+    }
+}
+.dont-teach {
+    background-image: url(../img/aboutsecondbg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    h1 {
+        color: white;
+        font-size: 28px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding-top: 65px;
+        @media (max-width:1190px) {
+            font-size: 23px;
+        }
+        @media (max-width:767px) {
+            font-size: 17px;
+            padding-top: 50px;
+        }
+    }
+    h2 {
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-top: 26px;
+        @media (max-width:1190px) {
+            font-size: 16px;
+        }
+        @media (max-width:767px) {
+            font-size: 13px;
+            letter-spacing: 1px;
+            margin-top: 22px;
+        }
+    }
+    h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-top: 18px;
+        @media (max-width:1190px) {
+            font-size: 16px;
+        }
+        @media (max-width:767px) {
+            font-size: 13px;
+            letter-spacing: 1px;
+            margin-top: 15px;
+        }
+        span {
+            color: rgb(235, 186, 77);
+        }
+    }
+    .dont-teach-steps {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        padding-bottom: 20px;
+        @media (max-width:1190px) {
+            flex-direction: column;
+            padding-bottom: 40px;
+        }
+        @media (max-width:767px) {
+            padding-bottom: 35px;
+        }
+        .dont-teach-step {
+            background-color: white;
+            margin: 0 10px 20px 10px;
+            width: 370px;
+            height: 175px;
+            border-radius: 5px;
+            @media (max-width:1190px) {
+                margin: 0 31% 20px 31%;
+                width: auto;
+                height: 170px;
+            }
+            @media (max-width:767px) {
+                margin: 0 33px 15px 33px; 
+                height: 110px;
+            }
+            h4 {
+                color: white;
+                background-color: rgb(235, 186, 77);
+                font-size: 18px;
+                letter-spacing: 2px;
+                margin: 30px;
+                margin-bottom: 0;
+                padding: 2px 0;
+                border-radius: 5px;
+                @media (max-width:1190px) {
+                    font-size: 15px;
+                }
+                @media (max-width:767px) {
+                    font-size: 14px;
+                    margin: 15px 50px 0 50px;
+                }
+            }
+            h5 {
+                font-size: 14px;
+                font-weight: bolder;
+                letter-spacing: 2px;
+                margin-top: 33px;
+                @media (max-width:1190px) {
+                    font-size: 12px;
+                    letter-spacing: 0;
+                }
+                @media (max-width:767px) {
+                    margin-top: 19px;
+                }
+            }
+            h6 {
+                font-weight: bolder;
+                letter-spacing: 2px;
+                margin-top: 20px;
+                @media (max-width:1190px) {
+                    font-size: 14px;
+                }
+                @media (max-width:767px) {
+                    font-size: 12px;
+                    margin-top: 11px;
+                }
             }
         }
     }

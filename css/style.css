@@ -892,4 +892,193 @@ header .header .header-right .header-form p {
     font-size: 10px;
   }
 }
+
+.dont-teach {
+  background-image: url(../img/aboutsecondbg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.dont-teach h1 {
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding-top: 65px;
+}
+
+@media (max-width: 1190px) {
+  .dont-teach h1 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dont-teach h1 {
+    font-size: 17px;
+    padding-top: 50px;
+  }
+}
+
+.dont-teach h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 26px;
+}
+
+@media (max-width: 1190px) {
+  .dont-teach h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dont-teach h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 22px;
+  }
+}
+
+.dont-teach h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 18px;
+}
+
+@media (max-width: 1190px) {
+  .dont-teach h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dont-teach h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+  }
+}
+
+.dont-teach h3 span {
+  color: #ebba4d;
+}
+
+.dont-teach .dont-teach-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1190px) {
+  .dont-teach .dont-teach-steps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dont-teach .dont-teach-steps {
+    padding-bottom: 35px;
+  }
+}
+
+.dont-teach .dont-teach-steps .dont-teach-step {
+  background-color: white;
+  margin: 0 10px 20px 10px;
+  width: 370px;
+  height: 175px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1190px) {
+  .dont-teach .dont-teach-steps .dont-teach-step {
+    margin: 0 31% 20px 31%;
+    width: auto;
+    height: 170px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dont-teach .dont-teach-steps .dont-teach-step {
+    margin: 0 33px 15px 33px;
+    height: 110px;
+  }
+}
+
+.dont-teach .dont-teach-steps .dont-teach-step h4 {
+  color: white;
+  background-color: #ebba4d;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 30px;
+  margin-bottom: 0;
+  padding: 2px 0;
+  border-radius: 5px;
+}
+
+@media (max-width: 1190px) {
+  .dont-teach .dont-teach-steps .dont-teach-step h4 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dont-teach .dont-teach-steps .dont-teach-step h4 {
+    font-size: 14px;
+    margin: 15px 50px 0 50px;
+  }
+}
+
+.dont-teach .dont-teach-steps .dont-teach-step h5 {
+  font-size: 14px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 33px;
+}
+
+@media (max-width: 1190px) {
+  .dont-teach .dont-teach-steps .dont-teach-step h5 {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .dont-teach .dont-teach-steps .dont-teach-step h5 {
+    margin-top: 19px;
+  }
+}
+
+.dont-teach .dont-teach-steps .dont-teach-step h6 {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1190px) {
+  .dont-teach .dont-teach-steps .dont-teach-step h6 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dont-teach .dont-teach-steps .dont-teach-step h6 {
+    font-size: 12px;
+    margin-top: 11px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
