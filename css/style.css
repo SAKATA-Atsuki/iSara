@@ -1081,4 +1081,132 @@ header .header .header-right .header-form p {
     margin-top: 11px;
   }
 }
+
+.other-than-skill {
+  text-align: center;
+  background-color: #016eaa;
+  padding: 40px 0 20px 0;
+}
+
+@media (max-width: 1190px) {
+  .other-than-skill {
+    padding-top: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .other-than-skill {
+    padding: 21px 0 5px 0;
+  }
+}
+
+.other-than-skill p {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  line-height: 33px;
+}
+
+@media (max-width: 1190px) {
+  .other-than-skill p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .other-than-skill p {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}
+
+.other-than-skill p span {
+  color: #ebba4d;
+}
+
+.whats-learning {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+
+.whats-learning h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1190px) {
+  .whats-learning h1 {
+    font-size: 24px;
+  }
+}
+
+.whats-learning h1 span {
+  font-size: 15px;
+}
+
+@media (max-width: 1190px) {
+  .whats-learning h1 span {
+    font-size: 14px;
+  }
+}
+
+.whats-learning h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 48px;
+}
+
+@media (max-width: 1190px) {
+  .whats-learning h2 {
+    font-size: 16px;
+  }
+}
+
+.whats-learning .whats-learning-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .whats-learning .whats-learning-skills {
+    margin: 0 70px;
+    width: 100%;
+  }
+}
+
+.whats-learning .whats-learning-skills img {
+  width: 180px;
+  margin: 37px 20px 0 20px;
+}
+
+@media (max-width: 893px) {
+  .whats-learning .whats-learning-skills img {
+    width: 19%;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-learning .whats-learning-skills img {
+    width: 19%;
+    margin: 37px 3px 0 3px;
+  }
+}
+
+.whats-learning p {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+@media (max-width: 1190px) {
+  .whats-learning p {
+    font-size: 14px;
+    margin-top: 55px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
