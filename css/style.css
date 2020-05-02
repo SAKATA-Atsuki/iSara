@@ -1132,6 +1132,13 @@ header .header .header-right .header-form p {
   padding-bottom: 35px;
 }
 
+@media (max-width: 767px) {
+  .whats-learning {
+    padding-top: 50px;
+    padding-bottom: 13px;
+  }
+}
+
 .whats-learning h1 {
   font-size: 28px;
   font-weight: bolder;
@@ -1144,6 +1151,12 @@ header .header .header-right .header-form p {
   }
 }
 
+@media (max-width: 767px) {
+  .whats-learning h1 {
+    font-size: 18px;
+  }
+}
+
 .whats-learning h1 span {
   font-size: 15px;
 }
@@ -1151,6 +1164,12 @@ header .header .header-right .header-form p {
 @media (max-width: 1190px) {
   .whats-learning h1 span {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whats-learning h1 span {
+    font-size: 12px;
   }
 }
 
@@ -1166,34 +1185,50 @@ header .header .header-right .header-form p {
   }
 }
 
+@media (max-width: 767px) {
+  .whats-learning h2 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
 .whats-learning .whats-learning-skills {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 1190px) {
+  .whats-learning .whats-learning-skills {
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 767px) {
   .whats-learning .whats-learning-skills {
-    margin: 0 70px;
-    width: 100%;
+    margin: 0 50px;
+    margin-top: 15px;
   }
 }
 
 .whats-learning .whats-learning-skills img {
   width: 180px;
-  margin: 37px 20px 0 20px;
+  margin: 0 20px;
 }
 
-@media (max-width: 893px) {
+@media (max-width: 882px) {
   .whats-learning .whats-learning-skills img {
-    width: 19%;
+    width: 20%;
   }
 }
 
 @media (max-width: 767px) {
   .whats-learning .whats-learning-skills img {
-    width: 19%;
-    margin: 37px 3px 0 3px;
+    margin: auto;
   }
 }
 
@@ -1208,5 +1243,124 @@ header .header .header-right .header-form p {
     font-size: 14px;
     margin-top: 55px;
   }
+}
+
+@media (max-width: 767px) {
+  .whats-learning p {
+    font-size: 12px;
+    margin-top: 23px;
+  }
+}
+
+.merit {
+  background-color: #fef5e0;
+  padding-top: 43px;
+}
+
+.merit .merit-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 880px;
+  margin: 0 auto;
+}
+
+.merit .merit-top .brackets-1 {
+  border-top: solid 4px #ebba4d;
+  border-left: solid 4px #ebba4d;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 767px) {
+  .merit .merit-top .brackets-1 {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.merit .merit-top .merit-top-title {
+  text-align: center;
+}
+
+.merit .merit-top .merit-top-title h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+.merit .merit-top .merit-top-title h2 {
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.merit .merit-top .brackets-2 {
+  border-bottom: solid 4px #ebba4d;
+  border-right: solid 4px #ebba4d;
+  width: 50px;
+  height: 50px;
+  margin-top: 70px;
+}
+
+@media (max-width: 767px) {
+  .merit .merit-top .brackets-2 {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.merit .merit-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+.merit .merit-main .merit-main-merit {
+  width: 360px;
+  margin: 0 15px;
+}
+
+.merit .merit-main .merit-main-merit img {
+  width: 100%;
+}
+
+.merit .merit-main .merit-main-merit h1 {
+  color: #ebba4d;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 13px;
+}
+
+.merit .merit-main .merit-main-merit p {
+  letter-spacing: 2px;
+  margin-top: 13px;
+}
+
+.merit .merit-support {
+  background-color: white;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  border: solid #ebba4d 2px;
+  border-radius: 5px;
+}
+
+.merit .merit-support h1 {
+  color: #ebba4d;
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 45px;
 }
 /*# sourceMappingURL=style.css.map */
