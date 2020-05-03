@@ -767,11 +767,21 @@ header {
 .merit {
     background-color: rgb(254, 245, 224);
     padding-top: 43px;
+    @media (max-width:1190px) {
+        padding-top: 30px;
+    }
     .merit-top {
         display: flex;
         justify-content: space-between;
         width: 880px;
         margin: 0 auto;
+        @media (max-width:1014px) {
+            width: auto;
+            margin: 0 70px;
+        }
+        @media (max-width:767px) {
+            margin: 0 20px;
+        }
         .brackets-1 {
             border-top: solid 4px rgb(235, 186, 77);
             border-left: solid 4px rgb(235, 186, 77);
@@ -789,12 +799,25 @@ header {
                 font-weight: bolder;
                 letter-spacing: 2px;
                 margin-top: 30px;
+                @media (max-width:1190px) {
+                    font-size: 16px;
+                }
+                @media (max-width:767px) {
+                    font-size: 15px;
+                }
             }
             h2 {
                 font-size: 28px;
                 font-weight: bolder;
                 letter-spacing: 2px;
                 margin-top: 10px;
+                @media (max-width:1190px) {
+                    font-size: 24px;
+                }
+                @media (max-width:767px) {
+                    font-size: 19px;
+                    margin-top: 20px;
+                }
             }
         }
         .brackets-2 {
@@ -806,7 +829,10 @@ header {
             @media (max-width:767px) {
                 width: 30px;
                 height: 30px;
-                // margin-top: 90px;
+                margin-top: 40px;
+            }
+            @media (max-width:767px) {
+                margin-top: 100px;
             }
         }
     }
@@ -814,9 +840,29 @@ header {
         display: flex;
         justify-content: center;
         margin-top: 25px;
+        margin-bottom: 35px;
+        @media (max-width:1190px) {
+            justify-content: space-between;
+            margin-right: 80px;
+            margin-left: 80px;
+        }
+        @media (max-width:1061px) {
+            flex-direction: column;
+            width: 300px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        @media (max-width:767px) {
+            margin-top: 3px;
+            margin-bottom: 20px;
+        }
         .merit-main-merit {
             width: 360px;
             margin: 0 15px;
+            @media (max-width:1190px) {
+                width: 300px;
+                margin: 0;
+            }
             img {
                 width: 100%;
             }
@@ -826,27 +872,97 @@ header {
                 font-weight: bolder;
                 letter-spacing: 2px;
                 margin-top: 13px;
+                @media (max-width:1190px) {
+                    text-align: center;
+                    font-size: 16px;
+                }
+                @media (max-width:767px) {
+                    font-size: 15px;
+                }
             }
             p {
                 letter-spacing: 2px;
                 margin-top: 13px;
+                @media (max-width:1190px) {
+                    font-size: 14px;
+                }
+                @media (max-width:767px) {
+                    font-size: 12px;
+                }
             }
         }
     }
     .merit-support {
         background-color: white;
         text-align: center;
-        width: 1000px;
+        width: 1150px;
         margin: 0 auto;
         border: solid rgb(235, 186, 77) 2px;
         border-radius: 5px;
+        @media (max-width:1190px) {
+            width: auto;
+            margin: 0 70px;
+        }
+        @media (max-width:767px) {
+            margin: 0 20px;
+        }
         h1 {
             color: rgb(235, 186, 77);
             font-size: 28px;
             font-weight: bolder;
             letter-spacing: 2px;
             margin-top: 45px;
+            @media (max-width:1190px) {
+                font-size: 24px;
+            }
+            @media (max-width:767px) {
+                font-size: 18px;
+                margin-top: 15px;
+            }
         }
-        // 「リモートワーカーの・・・」から。レスポンシブデザインはしてない。
+        h2 {
+            font-size: 19px;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            margin-top: 20px;
+            @media (max-width:1190px) {
+                font-size: 16px;
+            }
+            @media (max-width:767px) {
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+        p {
+            font-size: 16px;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            line-height: 25px;
+            margin-top: 15px;
+            margin-bottom: 45px;
+            @media (max-width:1190px) {
+                font-size: 14px;
+            }
+            @media (max-width:767px) {
+                font-size: 10px;
+                letter-spacing: 0;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .merit-bottom {
+        padding: 40px 0 30px 0;
+        @media (max-width:767px) {
+            padding: 15px 0 20px 0;
+        }
+        p {
+            text-align: center;
+            font-size: 14px;
+            letter-spacing: 1px;
+            @media (max-width:1190px) {
+                font-size: 12px;
+            }
+        }
     }
 }

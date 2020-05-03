@@ -1257,6 +1257,12 @@ header .header .header-right .header-form p {
   padding-top: 43px;
 }
 
+@media (max-width: 1190px) {
+  .merit {
+    padding-top: 30px;
+  }
+}
+
 .merit .merit-top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1266,6 +1272,19 @@ header .header .header-right .header-form p {
           justify-content: space-between;
   width: 880px;
   margin: 0 auto;
+}
+
+@media (max-width: 1014px) {
+  .merit .merit-top {
+    width: auto;
+    margin: 0 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-top {
+    margin: 0 20px;
+  }
 }
 
 .merit .merit-top .brackets-1 {
@@ -1293,11 +1312,36 @@ header .header .header-right .header-form p {
   margin-top: 30px;
 }
 
+@media (max-width: 1190px) {
+  .merit .merit-top .merit-top-title h1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-top .merit-top-title h1 {
+    font-size: 15px;
+  }
+}
+
 .merit .merit-top .merit-top-title h2 {
   font-size: 28px;
   font-weight: bolder;
   letter-spacing: 2px;
   margin-top: 10px;
+}
+
+@media (max-width: 1190px) {
+  .merit .merit-top .merit-top-title h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-top .merit-top-title h2 {
+    font-size: 19px;
+    margin-top: 20px;
+  }
 }
 
 .merit .merit-top .brackets-2 {
@@ -1312,6 +1356,13 @@ header .header .header-right .header-form p {
   .merit .merit-top .brackets-2 {
     width: 30px;
     height: 30px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-top .brackets-2 {
+    margin-top: 100px;
   }
 }
 
@@ -1323,11 +1374,48 @@ header .header .header-right .header-form p {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 1190px) {
+  .merit .merit-main {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 1061px) {
+  .merit .merit-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-main {
+    margin-top: 3px;
+    margin-bottom: 20px;
+  }
 }
 
 .merit .merit-main .merit-main-merit {
   width: 360px;
   margin: 0 15px;
+}
+
+@media (max-width: 1190px) {
+  .merit .merit-main .merit-main-merit {
+    width: 300px;
+    margin: 0;
+  }
 }
 
 .merit .merit-main .merit-main-merit img {
@@ -1342,18 +1430,56 @@ header .header .header-right .header-form p {
   margin-top: 13px;
 }
 
+@media (max-width: 1190px) {
+  .merit .merit-main .merit-main-merit h1 {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-main .merit-main-merit h1 {
+    font-size: 15px;
+  }
+}
+
 .merit .merit-main .merit-main-merit p {
   letter-spacing: 2px;
   margin-top: 13px;
 }
 
+@media (max-width: 1190px) {
+  .merit .merit-main .merit-main-merit p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-main .merit-main-merit p {
+    font-size: 12px;
+  }
+}
+
 .merit .merit-support {
   background-color: white;
   text-align: center;
-  width: 1000px;
+  width: 1150px;
   margin: 0 auto;
   border: solid #ebba4d 2px;
   border-radius: 5px;
+}
+
+@media (max-width: 1190px) {
+  .merit .merit-support {
+    width: auto;
+    margin: 0 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-support {
+    margin: 0 20px;
+  }
 }
 
 .merit .merit-support h1 {
@@ -1362,5 +1488,84 @@ header .header .header-right .header-form p {
   font-weight: bolder;
   letter-spacing: 2px;
   margin-top: 45px;
+}
+
+@media (max-width: 1190px) {
+  .merit .merit-support h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-support h1 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+
+.merit .merit-support h2 {
+  font-size: 19px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1190px) {
+  .merit .merit-support h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-support h2 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+.merit .merit-support p {
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 1190px) {
+  .merit .merit-support p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .merit .merit-support p {
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+.merit .merit-bottom {
+  padding: 40px 0 30px 0;
+}
+
+@media (max-width: 767px) {
+  .merit .merit-bottom {
+    padding: 15px 0 20px 0;
+  }
+}
+
+.merit .merit-bottom p {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1190px) {
+  .merit .merit-bottom p {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
