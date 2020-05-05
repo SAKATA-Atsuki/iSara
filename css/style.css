@@ -1709,14 +1709,61 @@ header .header .header-right .header-form p {
 
 .question {
   background-color: #ebba4d;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .question {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+}
+
+.question h1 {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  margin: 0 auto;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #ebba4d;
   text-align: center;
-  margin-bottom: -100px;
+  padding-top: 29px;
+}
+
+@media (max-width: 1190px) {
+  .question h1 {
+    font-size: 23px;
+    padding-top: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .question h1 {
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
+    padding-top: 22px;
+  }
 }
 
 .question .question-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 910px;
+  margin: 0 auto;
+}
+
+@media (max-width: 909px) {
+  .question .question-main {
+    width: auto;
+  }
 }
 
 .question .question-main .brackets-1 {
@@ -1724,6 +1771,7 @@ header .header .header-right .header-form p {
   border-left: solid 4px white;
   width: 50px;
   height: 50px;
+  margin-left: 20px;
 }
 
 @media (max-width: 767px) {
@@ -1733,11 +1781,37 @@ header .header .header-right .header-form p {
   }
 }
 
+.question .question-main p {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding-top: 17px;
+}
+
+@media (max-width: 1190px) {
+  .question .question-main p {
+    font-size: 18px;
+    padding-top: 23px;
+  }
+}
+
+@media (max-width: 767px) {
+  .question .question-main p {
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 40px;
+  }
+}
+
 .question .question-main .brackets-2 {
   border-bottom: solid 4px white;
   border-right: solid 4px white;
   width: 50px;
   height: 50px;
+  margin-top: 65px;
+  margin-right: 20px;
 }
 
 @media (max-width: 767px) {
@@ -1747,11 +1821,17 @@ header .header .header-right .header-form p {
   }
 }
 
-.question .triangle {
-  border-top: solid 30px black;
-  border-right: solid 30px transparent;
-  border-bottom: solid 30px transparent;
-  border-left: solid 30px transparent;
+@media (max-width: 767px) {
+  .question .question-main .brackets-2 {
+    margin-top: 80px;
+  }
+}
+
+.answer .triangle {
+  border-top: solid 25px #ebba4d;
+  border-right: solid 25px transparent;
+  border-bottom: solid 25px transparent;
+  border-left: solid 25px transparent;
   width: 0;
   height: 0;
   margin: 0 auto;
