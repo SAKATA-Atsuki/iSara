@@ -1827,6 +1827,17 @@ header .header .header-right .header-form p {
   }
 }
 
+.answer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .answer {
+    padding: 0;
+  }
+}
+
 .answer .triangle {
   border-top: solid 25px #ebba4d;
   border-right: solid 25px transparent;
@@ -1835,5 +1846,127 @@ header .header .header-right .header-form p {
   width: 0;
   height: 0;
   margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .answer .triangle {
+    border-top: solid 15px #ebba4d;
+    border-right: solid 15px transparent;
+    border-bottom: solid 15px transparent;
+    border-left: solid 15px transparent;
+  }
+}
+
+.answer h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1190px) {
+  .answer h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .answer h1 {
+    font-size: 18px;
+  }
+}
+
+.answer h2 {
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1190px) {
+  .answer h2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .answer h2 {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}
+
+.answer h3 {
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-top: 38px;
+}
+
+@media (max-width: 1190px) {
+  .answer h3 {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .answer h3 {
+    line-height: 19px;
+  }
+}
+
+.answer .answer-person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 780px;
+  margin: 33px auto 40px auto;
+}
+
+@media (max-width: 991px) {
+  .answer .answer-person {
+    width: auto;
+    margin: 33px 20px 40px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .answer .answer-person {
+    margin: 33px 10px 40px 10px;
+  }
+}
+
+.answer .answer-person img {
+  width: 230px;
+  border: solid #ebba4d 3px;
+}
+
+@media (max-width: 991px) {
+  .answer .answer-person img {
+    width: 30%;
+    margin-bottom: auto;
+  }
+}
+
+.answer .answer-person .answer-person-message {
+  text-align: left;
+  padding: 20px 0 20px 30px;
+  color: #777777;
+  font-style: italic;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 767px) {
+  .answer .answer-person .answer-person-message {
+    padding: 0 0 0 15px;
+    font-size: 14px;
+  }
+}
+
+.answer .answer-person .answer-person-message .answer-person-message-bottom {
+  display: inline;
+  font-size: 15px;
+  border-bottom: solid #777777 1px;
 }
 /*# sourceMappingURL=style.css.map */

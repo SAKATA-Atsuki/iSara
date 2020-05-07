@@ -1141,6 +1141,11 @@ header {
     }
 }
 .answer {
+    text-align: center;
+    padding-bottom: 20px;
+    @media (max-width:767px) {
+        padding: 0;
+    }
     .triangle {
         border-top: solid 25px rgb(235, 186, 77);
         border-right: solid 25px transparent;
@@ -1149,5 +1154,85 @@ header {
         width: 0;
         height: 0;
         margin: 0 auto;
+        @media (max-width:767px) {
+            border-top: solid 15px rgb(235, 186, 77);
+            border-right: solid 15px transparent;
+            border-bottom: solid 15px transparent;
+            border-left: solid 15px transparent;    
+        }
+    }
+    h1 {
+        font-size: 28px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        @media (max-width:1190px) {
+            font-size: 24px;
+        }
+        @media (max-width:767px) {
+            font-size: 18px;
+        }
+    }
+    h2 {
+        font-size: 16px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        @media (max-width:1190px) {
+            font-size: 14px;
+        }
+        @media (max-width:767px) {
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+    }
+    h3 {
+        font-size: 14px;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        margin-top: 38px;
+        @media (max-width:1190px) {
+            font-size: 12px;
+            letter-spacing: 0;
+        }
+        @media (max-width:767px) {
+            line-height: 19px;
+        }
+    }
+    .answer-person {
+        display: flex;
+        width: 780px;
+        margin: 33px auto 40px auto;
+        @media (max-width:991px) {
+            width: auto;
+            margin: 33px 20px 40px 20px;
+        }
+        @media (max-width:767px) {
+            margin: 33px 10px 40px 10px;
+        }
+        img {
+            width: 230px;
+            border: solid rgb(235, 186, 77) 3px;
+            @media (max-width:991px) {
+                width: 30%;
+                margin-bottom: auto;
+            }
+        }
+        .answer-person-message {
+            text-align: left;
+            padding: 20px 0 20px 30px;
+            color: rgb(119, 119, 119);
+            font-style: italic;
+            font-size: 17px;
+            letter-spacing: 2px;
+            @media (max-width:767px) {
+                padding: 0 0 0 15px;
+                font-size: 14px;
+            }
+            .answer-person-message-bottom {
+                display: inline;
+                font-size: 15px;
+                border-bottom: solid rgb(119, 119, 119) 1px;
+            }
+        }
     }
 }
