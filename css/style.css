@@ -1969,4 +1969,40 @@ header .header .header-right .header-form p {
   font-size: 15px;
   border-bottom: solid #777777 1px;
 }
+
+.learn-content {
+  background-image: url(../img/classbg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.learn-content h1 {
+  color: white;
+}
+
+.learn-content p {
+  color: white;
+}
+
+.learn-content .learn-content-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.learn-content .learn-content-lists .learn-content-list {
+  background-color: white;
+}
+
+.learn-content .learn-content-lists .learn-content-list h1 {
+  background-color: #016eaa;
+}
+
+.learn-content .learn-content-lists .learn-content-list p {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1236,3 +1236,28 @@ header {
         }
     }
 }
+.learn-content {
+    background-image: url(../img/classbg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    h1 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+    .learn-content-lists {
+        display: flex;
+        justify-content: center;
+        .learn-content-list {
+            background-color: white;
+            h1 {
+                background-color: rgb(1, 110, 170);
+            }
+            p {
+                color: black;
+            }
+        }
+    }
+}
