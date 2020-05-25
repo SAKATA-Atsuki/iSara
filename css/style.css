@@ -2167,4 +2167,34 @@ header .header .header-right .header-form p {
     font-size: 14px;
   }
 }
+
+.flow {
+  text-align: center;
+  padding-top: 66px;
+}
+
+.flow h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.flow .flow-top {
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+
+.flow .flow-content {
+  background-color: #fdf5e0;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.flow .flow-content .flow-content-right {
+  text-align: left;
+}
 /*# sourceMappingURL=style.css.map */
